@@ -16,7 +16,7 @@ def open_chrome(get_data):
        
 def run_chrome(search):
     
-   driver = webdriver.Chrome("C:/Users/rajaa/Desktop/projects/ChatBot/chromedriver_updated.exe")
+   driver = webdriver.Chrome("C:/Users/rajaa/Desktop/projects/Python_ErrorSolver/chromedriver.exe")
    driver.get('https://www.google.com')
    driver.maximize_window()
    time.sleep(3)
