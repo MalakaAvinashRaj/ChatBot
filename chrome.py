@@ -18,6 +18,7 @@ def run_chrome(search):
     
    driver = webdriver.Chrome("C:/Users/rajaa/Desktop/projects/Python_ErrorSolver/chromedriver.exe")
    driver.get('https://www.google.com')
+   time.sleep(1)
    driver.maximize_window()
    time.sleep(3)
    pyautogui.click(x=281, y=68)

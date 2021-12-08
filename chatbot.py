@@ -5,7 +5,7 @@ from data_base import search_process
 # Naming bot
 bot_name = 'sara:'
 
-response = {'hi', 'hello', 'hola'}
+response = {'hi', 'hello', 'hola', 'hey'}
 
 # Chat starts here
 def chatting(get_response):
